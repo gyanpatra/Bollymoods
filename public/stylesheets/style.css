@@ -1,0 +1,104 @@
+* {
+  margin:0;
+  padding:0;
+  outline:none;
+}
+
+body {
+  height:700px;
+  background:url('../images/bg_bollymoods.jpg') 50% 70% no-repeat;
+  background-color:black;
+  color:white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-attachment:fixed;
+}
+
+.main {
+  width:1300px;
+  margin:0 auto;
+}
+
+#navigation {
+  background-color:black;
+  width:100%;
+  position:fixed;
+  top:0;
+}
+
+nav {
+  height:50px;
+  border-bottom:1px solid white;
+}
+
+nav ul {
+  text-align:center;
+}
+
+nav ul li {
+  list-style-type:none;
+  display:inline-block;
+  padding:0 20px;
+  line-height:50px;
+  font-size:inherit;
+  color:inherit;
+  background-color:#A51D1D;
+}
+
+nav ul li:hover {
+  transition:background-color 0.3s, color 0.3s;
+  background-color:black;
+  color:#E58A03;
+}
+
+
+header {
+  margin-top:70px;
+  clear:both;
+}
+
+header h1 {
+  display:inline-block;
+  width:230px;
+  font-weight:normal;
+  line-height:25px;
+  height:50px;
+  font-family:Rockwell, Georgia, serif;
+  background-color:rgba(252,80,12,0.1);
+  background-image:url('../images/bollymoods_party.jpg');
+  background-repeat:no-repeat;
+  background-position:left 0;
+  background-size:50px 50px;
+  text-align:right;
+  margin:0;
+}
+
+header h1 a {
+  text-decoration:none;
+}
+
+.info {
+  width:500px;
+  background-color:rgba(252,80,12,0.1);
+  font-size:13px;
+}
+
+article {
+  width:640px;
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

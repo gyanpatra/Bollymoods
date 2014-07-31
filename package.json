@@ -1,0 +1,11 @@
+{
+  "name": "bollymoods",
+  "version": "0.0.1",
+  "description": "Bollywood video web application",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "~4.5",
+    "method-override": "^2.1.2",
+    "mongoose": "^3.8.14"
+  }
+}

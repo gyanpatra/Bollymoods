@@ -1,0 +1,12 @@
+<% include header %>
+
+<ul>
+  <% articles.forEach(function(article) { %>
+    <li><article>
+      <h1><%= article.title %></h1>
+      <iframe width='640' height='390' src='<%= article.src %>' allowfullscreen></iframe>
+    </article></li>
+  <% }) %>
+</ul>
+
+<% include footer %>
